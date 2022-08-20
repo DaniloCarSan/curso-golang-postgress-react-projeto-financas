@@ -6,6 +6,6 @@ services:
     environment:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
-      - POSTGRES_DB=postgres
+      - POSTGRES_DB=go_finance
     ports:
       - '5432:5432'
